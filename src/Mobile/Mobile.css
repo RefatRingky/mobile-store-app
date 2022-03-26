@@ -12,11 +12,22 @@
 .cart-container{
     background-color: purple;
     height: 1000px;
+    color: white;
     
 }
 .order-summary{
    color: white;
    padding-top: 10px;
+   font-size: 17px;
+}
+.chooseMe-btn{
+    background-color: pink;
+    color:black;
+    padding: 10px;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 700;
 }
 .remove-btn{
     background-color: pink;
@@ -26,7 +37,12 @@
     border-radius: 8px;
     font-size: 17px;
     font-weight: 700;
+    
 }
+.remove-all{
+    padding-top: 45px;
+}
+
 @media screen and (max-width:600px) {
    .mobile-container{
        grid-template-columns: repeat(2,1fr);

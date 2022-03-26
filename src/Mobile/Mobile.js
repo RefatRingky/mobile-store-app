@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 
+
 import './Mobile.css'
 
 const Mobile = () => {
@@ -21,6 +22,11 @@ const Mobile = () => {
     const clearCut =() =>{
         setCart([]);
     }
+   const RandomProduct = (cart) =>{
+       for(const product in cart){
+           console.log(product.id);
+       }
+   }
 
     return (
         
@@ -37,13 +43,20 @@ const Mobile = () => {
 
            </div>
            <div className='cart-container'>
-            <h1 className='order-summary'>Order Summary</h1>
+            <h1 className='order-summary'> Here is Order Detail</h1>
             {
                 cart.map(item => <Cart key={item.id} item ={item}></Cart>)
                 
             }
-            {/* <button onClick={()=>{RandomProduct()}} className="random-btn">Choose One</button> */}
-            <button onClick={clearCut} className="remove-btn">Coose Again</button>
+             <div className='choose-me'>
+             <button onClick={RandomProduct} className="chooseMe-btn">
+             Choose one for me
+            </button>
+             </div>
+            <div className='remove-all'>
+            <button onClick={clearCut} className="remove-btn">Reset All</button>
+            </div>
+           
            </div>
         </div>
     );
