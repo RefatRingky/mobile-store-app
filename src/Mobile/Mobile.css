@@ -10,10 +10,24 @@
     margin: 100px 50px;
 }
 .cart-container{
-    background-color: coral;
+    background-color: purple;
+    height: 1000px;
     
 }
-@media screen and (max-width:900px) {
+.order-summary{
+   color: white;
+   padding-top: 10px;
+}
+.remove-btn{
+    background-color: pink;
+    color: rgb(19, 17, 17);
+    padding: 15px;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 700;
+}
+@media screen and (max-width:600px) {
    .mobile-container{
        grid-template-columns: repeat(2,1fr);
    } 

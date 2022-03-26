@@ -1,11 +1,13 @@
 import './App.css';
 import Mobile from './Mobile/Mobile';
+import Question from './Question/Question';
 
 function App() {
   return (
     <div className="App">
-      <h1>My Mobile Bazar</h1>
+      <h1>Rinrav's Mobile House</h1>
       <Mobile></Mobile>
+      <Question></Question>
     </div>
   );
 }

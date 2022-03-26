@@ -28,7 +28,10 @@
 .btn-cart{
     width: 100%;
     
-    background: coral;
+    background: purple;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
     border: 0;
     border-radius: 10px;
     bottom: 0;

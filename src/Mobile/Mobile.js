@@ -37,7 +37,7 @@ const Mobile = () => {
 
            </div>
            <div className='cart-container'>
-            <h1>Order Summary</h1>
+            <h1 className='order-summary'>Order Summary</h1>
             {
                 cart.map(item => <Cart key={item.id} item ={item}></Cart>)
                 
