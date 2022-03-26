@@ -1,7 +1,7 @@
 # Welcome To "Our Rinrav's Mobile Hut".
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+#Live Link:[assignment-eight-react](https://cosmic-croissant-7281ac.netlify.app/).
 ## Available Scripts 
 1.Anybody can purchase mobile from this app.
 2.The buyer use add to cart for their use.
