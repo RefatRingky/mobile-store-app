@@ -1,0 +1,20 @@
+.mobile-shop{
+    /* color: coral; */
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.mobile-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 100px 50px;
+}
+.cart-container{
+    background-color: coral;
+    
+}
+@media screen and (max-width:900px) {
+   .mobile-container{
+       grid-template-columns: repeat(2,1fr);
+   } 
+}
