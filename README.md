@@ -2,7 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Available Scripts 
+1.Anybody can purchase mobile from this app.
+2.The buyer use add to cart for their use.
+3.The buyer also clear the choosen data by clicking Reset All button
+4.The buyer also can use random mobile by clicking choose one for me button.
+5.The viewer also see the some document abour how react work and how useState works
 
 In the project directory, you can run:
 

@@ -43,8 +43,12 @@
     padding-top: 45px;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:750px) {
    .mobile-container{
-       grid-template-columns: repeat(2,1fr);
+       grid-template-columns: repeat(1,1fr);
    } 
+   .cart-container{
+       background-color: coral;
+       bottom: 0;
+   }
 }
