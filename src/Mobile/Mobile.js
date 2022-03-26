@@ -23,8 +23,11 @@ const Mobile = () => {
         setCart([]);
     }
    const RandomProduct = (cart) =>{
-       for(const product in cart){
-           console.log(product.id);
+       let randomItem = cart[Math.floor(Math.random()*cart.length)]
+       console.log(randomItem);
+       for(let randomItemm in randomItem){
+        //    console.log(product.id);
+           return alert(randomItem.name)
        }
    }
 
@@ -49,7 +52,7 @@ const Mobile = () => {
                 
             }
              <div className='choose-me'>
-             <button onClick={RandomProduct} className="chooseMe-btn">
+             <button onClick={()=>{RandomProduct(cart)}} className="chooseMe-btn">
              Choose one for me
             </button>
              </div>
